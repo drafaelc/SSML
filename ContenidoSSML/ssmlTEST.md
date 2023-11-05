@@ -1,0 +1,18 @@
+<speak>
+Reto: Adivina la siguiente adivinanza: Un hombre está mirando el televisor. Su vivienda permanece a oscuras porque en el lugar que reside la luz está apagada. Viendo las noticias de la mañana en el televisor ocurre lo siguiente: 
+<break time='2000ms'/> El presentador anuncia un fatal accidente, aparentemente causado por una negligencia, se dispone a contactar con la reportera que se encuentra en el lugar de los hechos. <break time='2000ms'/>
+<seq>
+<voice language="es-ES" gender="male" required="gender" ordering="gender language">Presentador: Buenos días, bríndanos detalles de lo acontecido en el lugar.</voice> 
+<break time='2000ms'/> 
+<voice language="es-ES" gender="female" required="gender" ordering="gender language">Reportera: Buenos días, en efecto, este trágico accidente aparentemente fue ocasionado por una negligencia que aún no se determina si fue humana o por el sistema.</voice>
+<break time='2000ms'/> 
+<voice language="es-ES" gender="male" required="gender" ordering="gender language">Presentador: Coméntanos, existen muertos, heridos, destrucción, etc.</voice> <break time='2000ms'/></voice> 
+<break time='2000ms'/> 
+<voice language="es-ES" gender="female" required="gender" ordering="gender language"> Reportera: El accidente causó la muerte instantánea de 18 personas, los cuales 2 de ellos fallecieron después de llegar los equipos de emergencia.</voice>
+ <break time='2000ms'/><voice language="es-ES" gender="male" required="gender" ordering="gender language"> Presentador: ¡Qué terrible suceso! </voice>
+  <break time='2000ms'/><voice language="es-ES" gender="female" required="gender" ordering="gender language"> Reportera: Por el momento se ha identificado a todas las personas que son provenientes del extranjero. La policía acordonó el lugar y ya no nos deja obtener mayor información.</voice>
+   <break time='2000ms'/> 
+   <voice language="es-ES" gender="male" required="gender" ordering="gender language">Presentador: Entendemos la situación, gracias por mantenernos informados. </voice>
+   <break time='2000ms'/>
+   <voice language="es-ES" gender="female" required="gender" ordering="gender language"> Reportera: Cuando tengamos mayor detalle de lo acontecido y el reporte de la policía, actualizaremos la información a todos los ciudadanos, me despido con un saludo.</voice> 
+   <break time='2000ms'/> Mientras tanto el presentador siguió con otras noticias,<break time='3000ms'/> el hombre impactado por la noticia, se siente afectado. Acto seguido, el hombre se levanta, enciende la luz y se suicida. <break time='2050ms'/> ¿Por qué se ha suicidado? Elige una de las siguientes respuestas:</seq> <break time='2000ms'/> <seq><media><speak> a El hombre vive en un faro y es un farero</speak></media> <media><audio src='https://actions.google.com/sounds/v1/water/waves_crashing_on_rock_beach.ogg' clipEnd='8s'>waves crashing on rock beach</audio></media> <media><speak> b El hombre es un maquinista y trabaja en un tren </speak></media> <media><audio src='https://actions.google.com/sounds/v1/cartoon/wooden_train_whistle.ogg' clipEnd='8s'>wooden train whistle</audio></media> <media><speak> c El hombre es controlador aéreo y trabaja en un aeropuerto.</speak></media> <media><audio src='https://actions.google.com/sounds/v1/transportation/airplane_in_flight.ogg' clipEnd='8s'>airplane in flight</audio></media></seq>  Tienes un minuto para pensar la respuesta. <break time='10000ms'/> Si escogiste la opción a, enhorabuena. El hombre vive en un faro y es un farero es la respuesta correcta. </speak>
